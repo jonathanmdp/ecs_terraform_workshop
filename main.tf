@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "ecsworkshopbucket"
+    bucket = "ecs-devops-case-appgo"
     key    = "state/terraform.tfstate"
     region = "us-east-1"
   }
